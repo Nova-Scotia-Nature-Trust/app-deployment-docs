@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "App Deployment Help"
+
+  navbar:
+    left:
+      - text: Home
+        file: index.qmd
+      - text: Deployment
+        file: deployment.qmd
+      - text: Docker
+        file: docker.qmd
+      - text: GitHub Actions
+        file: github_actions.qmd
+
+  search:
+    location: navbar
+    type: overlay
+
+  page-footer:
+    left: "Internal documentation"
+    right: ""
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3

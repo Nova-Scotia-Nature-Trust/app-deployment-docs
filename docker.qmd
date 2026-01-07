@@ -1,0 +1,17 @@
+---
+title: "Docker"
+---
+
+## Image design
+
+This documentation is built using a multi-stage Docker image.
+
+### Build stage
+
+- Installs Quarto
+- Renders the full site
+
+### Runtime stage
+
+- Uses nginx
+- Serves static HTML only

@@ -1,0 +1,11 @@
+---
+title: "Deployment Overview"
+---
+
+## End-to-end flow
+
+1. Documentation is written in Quarto
+2. A version tag is created in Git
+3. GitHub Actions builds a Docker image
+4. The image is pushed to Docker Hub
+5. The internal server pulls and serves the updated documentation

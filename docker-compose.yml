@@ -1,0 +1,7 @@
+services:
+  app_deployment_help:
+    image: domhenrynsnt/app-deployment-docs:latest
+    container_name: app-docs-prod
+    ports:
+      - "8080:80"   
+    restart: unless-stopped

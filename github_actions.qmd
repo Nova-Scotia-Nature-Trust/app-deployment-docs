@@ -1,0 +1,7 @@
+---
+title: "GitHub Actions"
+---
+
+## Build trigger
+
+The documentation is rebuilt automatically when a Git tag is pushed.
